@@ -1,0 +1,422 @@
+body {
+    background-color: #EAEBEE;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.principal {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.header {
+    text-transform: uppercase;
+    background-color: #FFFFFF;
+    padding: 20px;
+    color: #5D5F66;
+    font-size: 20px;
+}
+.aniversarios {
+    background-color: #FFFFFF;
+    margin-top: 3px;
+    position: relative;
+    line-height: 1.25;
+}
+.ontem {
+    padding: 20px;
+}
+.ontem-texto {
+    color: #5D5F66;
+    font-size: 15px;
+}
+.cincodeabril {
+    color: #9A9CA3;
+}
+.imagem1 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: 100px;
+}
+.imagem2 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: 145px;
+}
+.imagem3 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: 190px;
+}
+.imagem4 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    top: 0px;
+    left: 235px;
+}
+.sabado {
+    padding: 20px;
+}
+.sabado-texto {
+    color: #5D5F66;
+    font-size: 15px;
+}
+.quatrodeabril {
+    color: #9A9CA3;
+}
+.imagem5 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    bottom: 70px;
+    left: 100px;
+}
+.imagem6 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    bottom: 70px;
+    left: 145px;
+}
+.imagem7 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    bottom: 70px;
+    left: 190px;
+}
+.imagem8 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    bottom: 70px;
+    left: 235px;
+}
+.sexta {
+    padding: 20px;
+}
+.sexta-texto {
+    color: #5D5F66;
+    font-size: 15px;
+}
+.tresdeabril {
+    color: #9A9CA3;
+}
+.imagem9 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 100px;
+}
+.imagem10 {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 20px;
+    position: absolute;
+    bottom: 0px;
+    left: 145px;
+}     
+
+.encontrar-eventos {
+    margin-top: 20px;
+}
+.header-eventos {
+    padding: 20px;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #FFFFFF;
+    margin-bottom: 3px;
+}
+
+.calendario-eventos {
+    background-color: #FFFFFF;
+    height: 240px;
+    position: relative;
+}
+.hoje {
+    background-color: #4969AD;
+    margin-left: 20px;
+    height: 200px;
+    width: 22.5%;
+    position: relative;
+    top: 20px;
+    border-radius: 7px;
+}
+.amanha {
+    background-color: #F8DA81;
+    margin-left: 20px;
+    height: 200px;
+    width: 22.5%;
+    position: relative;
+    bottom: 180px;
+    left: 301px;
+    border-radius: 7px;
+}
+.esta-semana {
+    background-color: #E25F6C;
+    margin-left: 20px;
+    height: 200px;
+    width: 22.5%;
+    position: relative;
+    bottom: 380px;
+    left: 602px;
+    border-radius: 7px;
+}
+.escolher-data {
+    background-color: #BFC3CA;
+    margin-left: 20px;
+    height: 200px;
+    width: 22.5%;
+    position: relative;
+    bottom: 580px;
+    left: 903px;
+    border-radius: 7px;
+}
+.imagem-hoje {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.footer-hoje {
+    font-size: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 155px;
+    left: 20px;
+}
+.imagem-amanha {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.footer-amanha {
+    font-size: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 155px;
+    left: 20px;
+}
+.imagem-esta-semana {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.footer-esta-semana {
+    font-size: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 155px;
+    left: 20px;
+}
+.imagem-escolher-data {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+.footer-escolher-data {
+    font-size: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    top: 155px;
+    left: 20px;
+}
+
+.tipos-eventos {
+    background-color: #FFFFFF;
+    margin-top: 3px;
+    position: relative;
+    padding-bottom: 20px;
+}
+.imagem-musica {
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.musica {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4969AD;
+    position: relative;
+    left: 90px;
+    bottom: 20px;
+    width: 1100px;
+}
+.imagem-festa {
+    width: 54px;
+    height: 52px;
+    position: relative;
+    left: 15px;
+    top: 20px;
+}
+.festa {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4969AD;
+    position: relative;
+    left: 90px;
+    bottom: 15px;
+    width: 1100px;
+}
+.imagem-arte {
+    width: 54px;
+    height: 52px;
+    position: relative;
+    left: 17px;
+    top: 20px;
+}
+.arte {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4969AD;
+    position: relative;
+    left: 90px;
+    bottom: 15px;
+    width: 1100px;
+}
+.imagem-dança {
+    width: 54px;
+    height: 52px;
+    position: relative;
+    left: 17px;
+    top: 20px;
+}
+.dança {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4969AD;
+    position: relative;
+    left: 90px;
+    bottom: 15px;
+    width: 1100px;
+}
+.imagem-outro {
+    width: 54px;
+    height: 52px;
+    position: relative;
+    left: 17px;
+    top: 20px;
+}
+.outro {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4969AD;
+    position: relative;
+    left: 90px;
+    bottom: 17px;
+    width: 1100px;
+}
+.imagem-networking {
+    width: 54px;
+    height: 52px;
+    position: relative;
+    left: 17px;
+    top: 20px;
+}
+.networking {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4969AD;
+    position: relative;
+    left: 90px;
+    bottom: 17px;
+    width: 1100px;
+}
+.mais {
+    font-size: 20px;
+    font-weight: bold;
+    color: #4969AD;
+    position: relative;
+    left: 27px;
+    top: 20px;
+}
+.imagem-mais {
+    width: 17px;
+    height: 17px;
+    position: relative;
+    left: 75px;
+    top: 4px;
+}
+
+.footer {
+    background-color: #FFFFFF;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 30px;
+    padding-bottom: 60px;
+    position: relative;
+}
+.pt-br {
+    color: #92949C;
+    font-size: 20px;
+}
+.pt-pt {
+    color: #4969AD;
+    font-size: 20px;
+}
+.ponto {
+    color: #92949C;
+    font-size: 20px;
+}
+.en-us {
+    color: #4969AD;
+    font-size: 20px;
+}
+.ponto2 {
+    color: #92949C;
+    font-size: 20px;
+}
+.es {
+    color: #4969AD;
+    font-size: 20px;
+}
+.ponto3 {
+    color: #92949C;
+    font-size: 20px;
+}
+.fr {
+    color: #4969AD;
+    font-size: 20px;
+}
+.sinal-mais {
+    position: absolute;
+    width: 80px;
+    height: 60px;
+    background-color: #F5F6F7;
+    left: 1110px;
+    bottom: 17px;
+    border: 3px solid #CED0D6;
+    border-radius: 5px;
+}
+.imagem-sinal-mais {
+    position: absolute;
+    left: 24.5px;
+    top: 16px;
+}
